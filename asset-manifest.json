@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ded9bb84.css",
+    "main.js": "/portfolio/static/js/main.9d9447da.js",
+    "static/media/kotlin.png": "/portfolio/static/media/kotlin.ea1f30beabffbf71d58c.png",
+    "static/media/embreve.png": "/portfolio/static/media/embreve.77cf88c66408b0bfb66b.png",
+    "static/media/heroImage.png": "/portfolio/static/media/heroImage.31b52f8287db079019a3.png",
+    "static/media/java.png": "/portfolio/static/media/java.4e332879122f609caa57.png",
+    "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/spring.png": "/portfolio/static/media/spring.e28dc1c99967883a2e63.png",
+    "static/media/node.png": "/portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio/index.html",
+    "main.ded9bb84.css.map": "/portfolio/static/css/main.ded9bb84.css.map",
+    "main.9d9447da.js.map": "/portfolio/static/js/main.9d9447da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ded9bb84.css",
+    "static/js/main.9d9447da.js"
+  ]
+}
