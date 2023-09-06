@@ -15,21 +15,25 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: 'portfólio'
+      link: 'educação'
     },
     {
       id: 4,
-      link: 'habilidades'
+      link: 'portfólio'
     },
     {
       id: 5,
+      link: 'habilidades'
+    },
+    {
+      id: 6,
       link: 'contato'
     }
   ];
 
 
   return (
-    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50'>
       <div>
         <h1 className='text-5xl font-signature ml-2'>João Lucas</h1>
       </div>
@@ -44,7 +48,7 @@ const NavBar = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+        className='cursor-pointer pr-4 z-30 text-gray-500 md:hidden'>
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (
