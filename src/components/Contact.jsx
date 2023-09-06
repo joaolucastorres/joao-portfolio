@@ -43,7 +43,8 @@ const Contact = () => {
       labeldescription: 'Download',
       labelicon: (
         <AiOutlineArrowDown />
-      )
+      ),
+      download: true
     },
   ]
   return (
@@ -59,9 +60,11 @@ const Contact = () => {
             <p className='py-6 font-bold text-xl'>Fale comigo</p>
             <div className='grid grid-cols-1 gap-8 sm:px-0 justify-center h-full w-full md:h-1/2'>
               {links.map(({ id, name, icon, description, href, labeldescription, labelicon, download }) => (
-                <button
+                <a
                   key={id}
-                  onClick={() => { window.open(`${href}`, '_blank') }}
+                  href={href}
+                  target='_blank'
+                  download={download}
                   className='p-2 bg-transparent rounded-md hover:scale-105 duration-500 py-4 shadow-lg shadow-black cursor-pointer text-white focus:outline-none flex flex-col justify-center items-center border-2 gap-1'>
                   {icon}
                   <p className='font-bold'>{name}</p>
@@ -70,7 +73,7 @@ const Contact = () => {
                     <p className='mr-1'>{labeldescription}</p>
                     {labelicon}
                   </div>
-                </button>
+                </a>
               ))}
             </div>
           </div>
