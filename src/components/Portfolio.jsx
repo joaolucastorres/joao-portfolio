@@ -1,12 +1,13 @@
 import React from 'react'
 import embreve from '../assets/portfolio/embreve.png'
+import aluroni from '../assets/portfolio/aluroni.png'
 
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: embreve,
+      src: aluroni,
       description: 'Cardápio do restaurante Aluroni. Projeto acadêmico front-end, utilizando React e Typescript.',
       demo: '',
       code: 'https://github.com/joaolucastorres/aluroni',
