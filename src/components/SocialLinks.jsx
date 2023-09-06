@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Currículo <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/Currículo João Lucas Pinheiro Torres.pdf',
+      href: process.env.PUBLIC_URL + '/Currículo João Lucas Pinheiro Torres.pdf',
       style: 'rounded-br-md',
       download: true
     },

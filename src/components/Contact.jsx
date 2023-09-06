@@ -39,7 +39,7 @@ const Contact = () => {
         <BsFillPersonLinesFill size={25} />
       ),
       description: 'João Lucas',
-      href: '/Currículo João Lucas Pinheiro Torres.pdf',
+      href: process.env.PUBLIC_URL + '/Currículo João Lucas Pinheiro Torres.pdf',
       labeldescription: 'Download',
       labelicon: (
         <AiOutlineArrowDown />
