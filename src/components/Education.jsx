@@ -39,7 +39,7 @@ const Education = () => {
   return (
     <div
       name="educação"
-      className='w-full h-full bg-gradient-to-b from-black to-gray-900 text-white'>
+      className='w-full h-full bg-gradient-to-b from-black to-gray-900 text-white py-10'>
       <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center text-white'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-cyan-500'>Educação</p>
