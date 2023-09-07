@@ -9,7 +9,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: aluroni,
-      description: 'Cardápio do restaurante Aluroni. Projeto acadêmico front-end, utilizando React e Typescript.',
+      description: 'Cardápio do restaurante Aluroni. Projeto acadêmico front-end desktop, utilizando React e Typescript.',
       demo: 'https://joaolucastorres.github.io/aluroni/',
       code: 'https://github.com/joaolucastorres/aluroni',
       coming: false
