@@ -12,7 +12,7 @@ const About = () => {
           </p>
         </div>
         <p className='text-xl mt-10'>
-          Sou um estudante desenvolvedor Full Stack atualmente cursando o 4º período do curso de Análise e Desenvolvimento de Sistemas na Universidade PUC Minas. Tenho paixão por desenvolvimento de software e estou comprometido em me tornar um profissional de alto nível.
+          Meu nome é João Lucas, sou desenvolvedor full stack, atualmente cursando o 4º período do curso de Análise e Desenvolvimento de Sistemas na Universidade PUC Minas. Tenho paixão por desenvolvimento de software e estou comprometido em me tornar um profissional de alto nível.
         </p>
 
         <br />
