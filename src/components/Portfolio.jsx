@@ -1,6 +1,7 @@
 import React from 'react'
 import embreve from '../assets/portfolio/embreve.png'
 import aluroni from '../assets/portfolio/aluroni.png'
+import forum from '../assets/portfolio/forum.png'
 
 
 const Portfolio = () => {
@@ -9,13 +10,13 @@ const Portfolio = () => {
       id: 1,
       src: aluroni,
       description: 'Cardápio do restaurante Aluroni. Projeto acadêmico front-end, utilizando React e Typescript.',
-      demo: '',
+      demo: 'https://joaolucastorres.github.io/aluroni/',
       code: 'https://github.com/joaolucastorres/aluroni',
       coming: false
     },
     {
       id: 2,
-      src: embreve,
+      src: forum,
       description: 'Fórum de dúvidas relacionado aos cursos Alura. Projeto back-end, utilizando Kotlin e Spring Boot.',
       demo: '',
       code: 'https://github.com/joaolucastorres/forum-alura',

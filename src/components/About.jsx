@@ -12,13 +12,19 @@ const About = () => {
           </p>
         </div>
         <p className='text-xl mt-10'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias nostrum quo delectus deleniti dolorem, harum nemo architecto, corrupti ducimus laboriosam dolore aut? Ipsum, explicabo vero delectus sapiente odit omnis facere perferendis exercitationem eos animi accusamus officiis soluta labore similique, ut dicta assumenda deserunt itaque recusandae saepe ex repellendus. Consequatur, illo.
+          Sou um estudante desenvolvedor Full Stack atualmente cursando o 4º período do curso de Análise e Desenvolvimento de Sistemas na Universidade PUC Minas. Tenho paixão por desenvolvimento de software e estou comprometido em me tornar um profissional de alto nível.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos exercitationem unde nisi nesciunt? Obcaecati in laudantium hic porro voluptatum molestias soluta facilis vel, consequatur similique suscipit, error tempora atque veritatis odio. Dolor commodi nesciunt consequatur eos impedit eligendi, itaque, esse modi corrupti sapiente debitis! Saepe enim necessitatibus autem! Incidunt, neque?
+          Minhas habilidades de desenvolvimento incluem Javascript/TypeScript e ReactJS para o front-end, bem como Java/Kotlin e Spring Boot para o back-end. Estou constantemente aprimorando meu conhecimento e habilidades para criar aplicações de qualidade e impacto.
+        </p>
+
+        <br />
+
+        <p className='text-xl'>
+          Estou em um emocionante período de transição de carreira e estou ávido para encontrar minha primeira oportunidade na área de desenvolvimento. Estou disposto a enfrentar qualquer desafio que me permita crescer e contribuir para projetos significativos.
         </p>
       </div>
     </div>
