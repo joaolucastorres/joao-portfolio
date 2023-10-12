@@ -1,26 +1,28 @@
 import React from 'react'
 import embreve from '../assets/portfolio/embreve.png'
-import aluroni from '../assets/portfolio/aluroni.png'
-import forum from '../assets/portfolio/forum.png'
+import portfolio from '../assets/portfolio/portfolio.png'
+import rentabook from '../assets/portfolio/rentABook.jpg'
 
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: aluroni,
-      description: 'Cardápio do restaurante Aluroni. Projeto acadêmico front-end desktop, utilizando React e Typescript.',
-      demo: 'https://joaolucastorres.github.io/aluroni/',
-      code: 'https://github.com/joaolucastorres/aluroni',
-      coming: false
+      src: portfolio,
+      description: 'Meu portfólio e currículo. Competências: React.js · JavaScript · Tailwind CSS · GitHub · HTML',
+      demo: 'https://joaolucastorres.github.io/portfolio/',
+      code: 'https://github.com/joaolucastorres/portfolio',
+      coming: false,
+      demoAvaliable: true
     },
     {
       id: 2,
-      src: forum,
-      description: 'Fórum de dúvidas relacionado aos cursos Alura. Projeto back-end, utilizando Kotlin e Spring Boot.',
+      src: rentabook,
+      description: 'Plataforma de alugueis, venda e troca de livros. Competências: Padrões de design · Kotlin · Spring Boot · MongoDB · Kanban · Scrum · GitHub · Arquitetura MVC · UML (Linguagem de modelagem unificada)',
       demo: '',
-      code: 'https://github.com/joaolucastorres/forum-alura',
-      coming: false
+      code: 'https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-aplicdistrib-t5-pmv-ads-2023-2-e4-g3-rentabook',
+      coming: false,
+      demoAvaliable: false
     },
     {
       id: 3,
@@ -28,9 +30,11 @@ const Portfolio = () => {
       description: 'Novos projetos sendo desenvolvidos :) Aguarde!',
       demo: '',
       code: '',
-      coming: true
+      coming: true,
+      demoAvaliable: false
     }
   ]
+
   return (
     <div
       name='portfólio'
@@ -41,7 +45,7 @@ const Portfolio = () => {
           <p className='py-6'>Veja um pouco dos meus trabalhos bem aqui</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-          {portfolios.map(({ id, src, demo, code, coming, description }) => (
+          {portfolios.map(({ id, src, demo, code, coming, description, demoAvaliable }) => (
             <div key={id} className='flex shadow-md shadow-black rounded-lg flex-col items-center justify-between border border-gray-900'>
               <img
                 src={src}
@@ -54,16 +58,18 @@ const Portfolio = () => {
                 }
                 {!coming &&
                   <>
-                    <button
-                      onClick={() => {
-                        window.open(`${demo}`, '_blank')
-                      }}
-                      className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
+                    {demoAvaliable &&
+                      <button
+                        onClick={() => {
+                          window.open(`${demo}`, '_blank')
+                        }}
+                        className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Demo</button>
+                    }
                     <button
                       onClick={() => {
                         window.open(`${code}`, '_blank')
                       }}
-                      className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110'>Código</button></>
+                      className={`${demoAvaliable ? 'w-1/2' : ''} px-6 py-3 m-4 duration-200 hover:scale-110`}>Repositório</button></>
                 }
               </div>
             </div>

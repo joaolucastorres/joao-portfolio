@@ -11,23 +11,31 @@ const About = () => {
             Sobre mim
           </p>
         </div>
-        <p className='text-xl mt-10'>
-          Meu nome é João Lucas, sou desenvolvedor full stack, atualmente cursando o 4º período do curso de Análise e Desenvolvimento de Sistemas na Universidade PUC Minas. Tenho paixão por desenvolvimento de software e estou comprometido em me tornar um profissional de alto nível.
+
+        <p className='text-xl'>
+          Tenho conhecimento nos fundamentos de análise, documentação e implementação de softwares, conceitos como padrão MVC, modularização e abstração de dados, testes unitários, diagramas UML, especificação e gerenciamento de requisitos, experiência em trabalho com metodologias ágeis (Scrum), fluxo de trabalho Kanban e versionamento com o Git e GitHub.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Minhas habilidades de desenvolvimento incluem Javascript/TypeScript e ReactJS para o front-end, bem como Java/Kotlin e Spring Boot para o back-end. Estou constantemente aprimorando meu conhecimento e habilidades para criar aplicações de qualidade e impacto.
+          Conhecimento em como projetar o armazenamento e o tratamento dos dados e realizar sua implementação em banco de dados relacionais e não relacionais, também estou estudando e me adaptando aos princípios SOLID, para melhorar e agregar melhor qualidade e padronização ao meu trabalho.
         </p>
 
         <br />
 
         <p className='text-xl'>
-          Estou em um emocionante período de transição de carreira e estou ávido para encontrar minha primeira oportunidade na área de desenvolvimento. Estou disposto a enfrentar qualquer desafio que me permita crescer e contribuir para projetos significativos.
+          Tenho experiência em linguagens e ferramentas de trabalho como HTML, Tailwind CSS, Sass, Javascript, TypeScript, React, Java, Kotlin, Spring Boot, MySQL, MongoDB.
+          Conhecimento em rede de computadores, hardware, sistemas operacionais Linux e Windows.
+        </p>
+
+        <br />
+
+        <p className='text-xl'>
+          Focado e responsável busco sempre me aperfeiçoar e aprender com novas tecnologias e desafios durante minha jornada acadêmica e profissional. Sempre aprimorando minha visão analítica e pensamento crítico procuro entregar com eficiência, qualidade e agilidade as tarefas e projetos que executo.. Estou disposto a enfrentar qualquer desafio que me permita crescer e contribuir para projetos significativos.
         </p>
       </div>
-    </div>
+    </div >
   )
 }
 
